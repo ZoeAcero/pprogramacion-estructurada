@@ -29,9 +29,11 @@ int main(){
 
     Estudiante estudianteCopia = estudianteOriginal;
 
+    printf("\nDatos copiados:\n");
+    printf("Nombre: %s\n", estudianteCopia.nombre);
+    printf("Edad: %d\n", estudianteCopia.edad);
+    printf("Promedio: %.2f\n", estudianteCopia.promedio);
+
     
-
-
-
     return 0;
 }
