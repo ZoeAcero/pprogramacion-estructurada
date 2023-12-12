@@ -34,6 +34,6 @@ int main(){
     printf("Edad: %d\n", estudianteCopia.edad);
     printf("Promedio: %.2f\n", estudianteCopia.promedio);
 
-    
+
     return 0;
 }
