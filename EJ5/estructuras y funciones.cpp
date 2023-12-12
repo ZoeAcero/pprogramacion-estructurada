@@ -7,5 +7,11 @@ struct Estudiante {
     float promedio;
 };
 
+void imprimirEstudiantePorValor(struct Estudiante estudiante) {
+    printf("Nombre: %s\n", estudiante.nombre);
+    printf("Edad: %d\n", estudiante.edad);
+    printf("Promedio: %.2f\n", estudiante.promedio);
+}
+
 
 
