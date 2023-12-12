@@ -13,5 +13,12 @@ void imprimirEstudiantePorValor(struct Estudiante estudiante) {
     printf("Promedio: %.2f\n", estudiante.promedio);
 }
 
+int main(){
 
+    struct Estudiante estudiante = {"Juan", 20, 85.5};
+    imprimirEstudiantePorValor(estudiante);
+
+    return 0;
+
+}
 
